@@ -1,0 +1,25 @@
+{
+  "name": "niess-portfolio",
+  "version": "1.0.0",
+  "description": "Siobhan Niess Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niesssiobhan/niess-portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Siobhan Niess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niesssiobhan/niess-portfolio/issues"
+  },
+  "homepage": "https://github.com/niesssiobhan/niess-portfolio#readme",
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}
