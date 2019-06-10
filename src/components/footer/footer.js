@@ -8,7 +8,8 @@ class Footer extends React.Component {
   render() {
     return (
       <>
-
+        <section id="footer">
+        </section>
       </>
     );
   }

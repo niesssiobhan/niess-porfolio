@@ -8,7 +8,8 @@ class Header extends React.Component {
   render() {
     return (
       <>
-
+        <section id="header">
+        </section>
       </>
     );
   }
