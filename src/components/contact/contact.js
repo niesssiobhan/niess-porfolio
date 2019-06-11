@@ -12,10 +12,10 @@ class Contact extends React.Component {
           <h2></h2>
           <p></p>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><a href="https://www.linkedin.com/in/siobhan-niess/" target="_blank" rel="noopener noreferrer"><img src={require('./assets/linkedin-logo')} alt="linkedin logo" /></a></li>
+            <li><a href="https://github.com/niesssiobhan" target="_blank" rel="noopener noreferrer"><img src={require('./assets/github-logo')} alt="github logo" /></a></li>
+            <li><a href="https://twitter.com/NiessSiobhan" target="_blank" rel="noopener noreferrer"><img src={require('./assets/twitter-logo')} alt="twitter logo" /></a></li>
+            <li><a href="mailto:niesssiobhan@live.com" target="_blank" rel="noopener noreferrer"><img src={require('./assets/email-logo')} alt="email logo" /></a></li>
           </ul>
         </section>
       </>
