@@ -9,8 +9,8 @@ class Contact extends React.Component {
     return (
       <>
         <section id="contact">
-          <h2></h2>
-          <p></p>
+          <h2>Feel free to reach out to me!</h2>
+          <p>I'd love to become a part of your team! I'm excited to keep growing and if you have any questions please connect with me!</p>
           <ul>
             <li><a href="https://www.linkedin.com/in/siobhan-niess/" target="_blank" rel="noopener noreferrer"><img src={require('./assets/linkedin-logo')} alt="linkedin logo" /></a></li>
             <li><a href="https://github.com/niesssiobhan" target="_blank" rel="noopener noreferrer"><img src={require('./assets/github-logo')} alt="github logo" /></a></li>
