@@ -9,6 +9,9 @@ class Portfolio extends React.Component {
     return (
       <>
         <section id="portfolio">
+          <h2>Current Portfolio</h2>
+          <section id="projects">
+          </section>
         </section>
       </>
     );
