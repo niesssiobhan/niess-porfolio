@@ -2,6 +2,7 @@ import React from "react";
 
 import '../../styles/base.scss';
 import './header.scss';
+import {Resume} from './assets/siobhanNiessResume.pdf';
 
 class Header extends React.Component {
 
@@ -14,7 +15,7 @@ class Header extends React.Component {
             <ul>
               <div id="nav-bar">
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#resume">Resume</a></li>
+                <li><a href={Resume} target="blank" rel="noopener noreferrer">Resume</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
               </div>
