@@ -17,7 +17,7 @@ class Header extends React.Component {
                   <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                  <a href={Resume} target="blank" rel="noopener noreferrer">
+                  <a href={Resume} target="_blank" rel="noopener noreferrer">
                     Resume
                   </a>
                 </li>
