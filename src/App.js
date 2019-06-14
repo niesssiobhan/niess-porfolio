@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 
 import'./styles/base.scss';
-import Header from './components/header.js';
-import About from './components/about.js';
-import Portfolio from './components/portfolio.js';
-import Contact from './components/contact.js';
-import Footer from './components/footer.js';
+import Header from './components/header/header.js';
+import About from './components/about/about.js';
+import Portfolio from './components/portfolio/portfolio.js';
+import Contact from './components/contact/contact.js';
+import Footer from './components/footer/footer.js';
 
 class App extends Component {
   render() {
