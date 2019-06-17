@@ -17,12 +17,21 @@ html {
 
 h2{
   font-family: $headerfont;
-  font-weight: 300;
-  font-size: 40px;
+  font-weight: 275;
+  font-size: 42px;
   text-transform: uppercase;
+  text-align: center;
 }
 
-footer{
+h4{
+  font-family:$bodyfont;
+  text-align: inherit;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#footer{
   font-family: $footerfont;
 }
 

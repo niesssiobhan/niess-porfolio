@@ -1,1 +1,52 @@
 @import "../../styles/variables.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Open+Sans|Raleway:300&display=swap');
+
+nav {
+
+  height: 100%;
+  width: 275px;
+  background-color: $light-color;
+  position: fixed;
+  // top: 0;
+  // display: block;
+  border-right: 3px solid $dark-color;
+
+  #name{
+    border-bottom: 1.5px solid $dark-color;
+    padding-bottom: 30px;
+  }
+
+  h1{
+    font-family: 'Crimson Text', serif;
+    font-weight: 275;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 2px 15px 7px 15px;
+    display: block;
+  }
+  
+  h3{
+    font-family: $headerfont;
+    color: rgb(188, 224, 185);
+    font-size: 20px;
+    display: block;
+    text-align: center;
+  }
+
+  div{
+    // display: flex;
+    // flex-direction: row;
+    justify-content: space-between;
+    line-height: 60px;
+    font-size: 25px;
+    margin-left: 50px;
+  }
+
+  a, li {
+    display: block;
+    text-decoration: none;
+    margin: 25px auto 15px auto;
+  }
+
+}
