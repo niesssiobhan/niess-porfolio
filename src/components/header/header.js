@@ -24,7 +24,7 @@ class Header extends React.Component {
                 </a>
               </li>
               <li>
-                <a href="#education">Certificatoins</a>
+                <a href="#education">Certifications</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>

@@ -8,3 +8,32 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: $bodyfont;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: $light-color;
+}
+
+h2{
+  font-family: $headerfont;
+  font-weight: 300;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+footer{
+  font-family: $footerfont;
+}
+
+a {
+  color: $dark-color;
+}
+
+a:visited {
+  color: $dark-color;
+}
+
+a:hover {
+  color: $highlight-color;
+}
