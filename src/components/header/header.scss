@@ -1,7 +1,6 @@
 @import "../../styles/variables.scss";
 
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Open+Sans|Raleway:300&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Encode+Sans+Semi+Condensed|Montserrat|Open+Sans|Raleway:300&display=swap');
 nav {
 
   height: 100%;
@@ -18,18 +17,20 @@ nav {
   }
 
   h1{
-    font-family: 'Crimson Text', serif;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
     font-weight: 275;
     font-size: 60px;
     text-transform: uppercase;
-    margin: 2px 15px 7px 15px;
+    margin: 15px 15px 7px 15px;
     display: block;
   }
   
   h3{
     font-family: $headerfont;
-    color: rgb(188, 224, 185);
-    font-size: 20px;
+    color: rgba(54, 56, 54, 0.678);
+    font-style: oblique;
+    font-weight: 600px;
+    font-size: 24px;
     display: block;
     text-align: center;
   }
@@ -46,7 +47,7 @@ nav {
   a, li {
     display: block;
     text-decoration: none;
-    margin: 25px auto 15px auto;
+    margin: 22px auto 15px auto;
   }
 
 }
