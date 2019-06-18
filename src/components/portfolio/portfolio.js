@@ -44,6 +44,7 @@ class Portfolio extends React.Component {
                 GitHub Repo
               </a>
               <a
+                class="secLink"
                 href="https://play.google.com/store/apps/details?id=com.jaredpattison.BUZZCARD&hl=en_US"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -54,17 +55,19 @@ class Portfolio extends React.Component {
           </container>
           <h4>atnote</h4>
           <conatiner id="containerTwo">
-            <img
-              src={require("./assets/atNote.jpg")}
-              alt="atnote npm package"
-            />
-            <div>
+            <div id="imageTwo">
+              <img
+                src={require("./assets/atNote.jpg")}
+                alt="atnote npm package"
+              />
+            </div>
+            <div id="contentTwo">
               <p>
                 <span>What it does: </span>atnote is a npm package that was
                 created to help users take notes while they are in their termial
                 with ease. Allows users to multitask between note taking and
                 writing code in a non-intrustive process. This is also
-                customizable for each user
+                customizable for each user.
               </p>
               <p class="tech">
                 <span>Technology Invloved: </span>Node.js - npm - JavaScript -
@@ -78,6 +81,7 @@ class Portfolio extends React.Component {
                 GitHub Repo
               </a>
               <a
+                class="secLink"
                 href="https://www.npmjs.com/package/atnote"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -88,11 +92,13 @@ class Portfolio extends React.Component {
           </conatiner>
           <h4>Space Rover</h4>
           <container id="containerThree">
-            <img
-              src={require("./assets/spaceRover.jpg")}
-              alt="website image of Space Rover"
-            />
-            <div>
+            <div id="imageThree">
+              <img
+                src={require("./assets/spaceRover.jpg")}
+                alt="website image of Space Rover"
+              />
+            </div>
+            <div id="contentThree">
               <p>
                 <span>What it does: </span>Space Rover is a mobile-first,
                 educational website about space. Users are able to select a
@@ -114,6 +120,7 @@ class Portfolio extends React.Component {
                 GitHub Repo
               </a>
               <a
+                class="secLink"
                 href="http://www.spacerover.tech/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -124,11 +131,13 @@ class Portfolio extends React.Component {
           </container>
           <h4>Packing Planner</h4>
           <conatiner id="containerFour">
-            <img
-              src={require("./assets/packingPlanner.png")}
-              alt="image of a stage with in Packing Planner"
-            />
-            <div>
+            <div id="imageFour">
+              <img
+                src={require("./assets/packingPlanner.png")}
+                alt="image of a stage with in Packing Planner"
+              />
+            </div>
+            <div id="contentFour">
               <p>
                 <span>What it does: </span>Packing Planner is an application
                 that was designed to help users pack for a trip or a vaction.
@@ -148,6 +157,7 @@ class Portfolio extends React.Component {
                 GitHub Repo
               </a>
               <a
+                class="secLink"
                 href="https://niesssiobhan.github.io/packing-planner/"
                 target="_blank"
                 rel="noopener noreferrer"
