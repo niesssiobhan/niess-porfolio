@@ -9,16 +9,62 @@
   border-bottom: 3px solid $dark-color;
 
   h2 {
-    margin: 15px auto 20px 300px;
+    margin: 15px auto 30px 275px;
+  }
+
+  hr {
+    width: 50%;
+    margin-left: 250px;
   }
 
   h4 {
-    margin: 5px auto 5px 50px;
+    margin: 30px auto 5px 50px;
     font-weight: bold;
   }
 
   span {
     font-weight: bold;
+  }
+
+  .button {
+    margin-left: 250px;
+    margin-right: 30px;
+  }
+
+  .button,
+  .buttonTwo {
+    background-color: gray;
+    font-family: $bodyfont;
+    font-size: 18px;
+    border-radius: 4%;
+    transition: all 0.5s;
+    border: none;
+  }
+
+  .button span,
+  .buttonTwo span {
+    display: inline-block;
+    transition: 0.5s;
+  }
+
+  .button span:after,
+  .buttonTwo span:after {
+    content: "\00bb";
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 1s;
+  }
+
+  .button:hover span,
+  .buttonTwo:hover span {
+    padding-left: 25px;
+  }
+
+  .button:hover span:after,
+  .buttonTwo:hover span:after {
+    opacity: 1;
+    right: 0;
   }
 
   #containerOne {
@@ -59,16 +105,8 @@
 
       a {
         display: inline-block;
-        justify-content: center;
-        // margin-top: 5px;
-        margin-left: 320px;
-        max-width: 30%;
+        padding: 15px 15px 15px 15px;
         text-decoration: none;
-      }
-
-      a.secLink {
-        max-width: 30%;
-        margin-left: 25px;
       }
     }
   }
@@ -111,16 +149,8 @@
 
       a {
         display: inline-block;
-        justify-content: center;
-        // margin-top: 15px;
-        margin-left: 320px;
-        max-width: 30%;
+        padding: 15px 15px 15px 15px;
         text-decoration: none;
-      }
-
-      a.secLink {
-        max-width: 30%;
-        margin-left: 25px;
       }
     }
   }
@@ -163,23 +193,15 @@
 
       a {
         display: inline-block;
-        justify-content: center;
-        // margin-top: 10px;
-        margin-left: 320px;
-        max-width: 30%;
+        padding: 15px 15px 15px 15px;
         text-decoration: none;
-      }
-
-      a.secLink {
-        max-width: 30%;
-        margin-left: 25px;
       }
     }
   }
 
   #containerFour {
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 
     #imageFour {
       display: block;
@@ -215,16 +237,8 @@
 
       a {
         display: inline-block;
-        justify-content: center;
-        // margin-top: 15px;
-        margin-left: 330px;
-        max-width: 30%;
+        padding: 15px 15px 15px 15px;
         text-decoration: none;
-      }
-
-      a.secLink {
-        max-width: 30%;
-        margin-left: 25px;
       }
     }
   }

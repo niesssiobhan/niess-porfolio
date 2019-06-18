@@ -9,6 +9,7 @@ class Portfolio extends React.Component {
       <>
         <section id="portfolio">
           <h2>Current Portfolio</h2>
+          <hr />
           <section id="projects" />
           <h4>BuzzCard</h4>
           <container id="containerOne">
@@ -31,21 +32,27 @@ class Portfolio extends React.Component {
                 <span>Technology Invloved: </span>React Native - Redux - Expo
                 App
               </p>
-              <a
-                href="https://github.com/401-final-project/front-end"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub Repo
-              </a>
-              <a
-                class="secLink"
-                href="https://play.google.com/store/apps/details?id=com.jaredpattison.BUZZCARD&hl=en_US"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Install BUZZCARD!
-              </a>
+              <button class="button">
+                <span />
+                <a
+                  href="https://github.com/401-final-project/front-end"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repo
+                </a>
+              </button>
+              <button class="buttonTwo">
+                <span />
+                <a
+                  class="secLink"
+                  href="https://play.google.com/store/apps/details?id=com.jaredpattison.BUZZCARD&hl=en_US"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Install BUZZCARD!
+                </a>
+              </button>
             </div>
           </container>
           <h4>atnote</h4>
@@ -68,21 +75,27 @@ class Portfolio extends React.Component {
                 <span>Technology Invloved: </span>Node.js - npm - JavaScript -
                 MongoDB
               </p>
-              <a
-                href="https://github.com/AtNote/AtNote"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub Repo
-              </a>
-              <a
-                class="secLink"
-                href="https://www.npmjs.com/package/atnote"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Try atnote!
-              </a>
+              <button class="button">
+                <span />
+                <a
+                  href="https://github.com/AtNote/AtNote"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repo
+                </a>
+              </button>
+              <button class="buttonTwo">
+                <span />
+                <a
+                  class="secLink"
+                  href="https://www.npmjs.com/package/atnote"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Try atnote!
+                </a>
+              </button>
             </div>
           </conatiner>
           <h4>Space Rover</h4>
@@ -107,21 +120,27 @@ class Portfolio extends React.Component {
                 <span>Technology Invloved: </span>JavaScript- EJS - HTML - CSS -
                 Node.js - Ephemeris API - NASA AoPD API - Heroku - SQL
               </p>
-              <a
-                href="https://github.com/hcherewaty/space_rover"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub Repo
-              </a>
-              <a
-                class="secLink"
-                href="http://www.spacerover.tech/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Check out Space Rover!
-              </a>
+              <button class="button">
+                <span />
+                <a
+                  href="https://github.com/hcherewaty/space_rover"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repo
+                </a>
+              </button>
+              <button class="buttonTwo">
+                <span />
+                <a
+                  class="secLink"
+                  href="http://www.spacerover.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Check out Space Rover!
+                </a>
+              </button>
             </div>
           </container>
           <h4>Packing Planner</h4>
@@ -144,21 +163,27 @@ class Portfolio extends React.Component {
               <p class="tech">
                 <span>Technology Invloved: </span>JavaScript - HTML - CSS
               </p>
-              <a
-                href="https://github.com/niesssiobhan/packing-planner"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub Repo
-              </a>
-              <a
-                class="secLink"
-                href="https://niesssiobhan.github.io/packing-planner/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Start Packing!
-              </a>
+              <button class="button">
+                <span />
+                <a
+                  href="https://github.com/niesssiobhan/packing-planner"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repo
+                </a>
+              </button>
+              <button class="buttonTwo">
+                <span />
+                <a
+                  class="secLink"
+                  href="https://niesssiobhan.github.io/packing-planner/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Start Packing!
+                </a>
+              </button>
             </div>
           </conatiner>
         </section>
