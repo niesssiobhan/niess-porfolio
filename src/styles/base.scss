@@ -1,2 +1,47 @@
 @import "./variables.scss";
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Raleway:300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $bodyfont;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: $light-color;
+}
+
+h2{
+  font-family: $headerfont;
+  font-weight: 275;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+h4{
+  font-family:$bodyfont;
+  text-align: inherit;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#footer{
+  font-family: $footerfont;
+}
+
+a {
+  color: $dark-color;
+}
+
+a:visited {
+  color: $dark-color;
+}
+
+a:hover {
+  color: $highlight-color;
+}
