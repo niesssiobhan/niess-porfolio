@@ -3,9 +3,6 @@ import React from "react";
 import "../../styles/base.scss";
 import "./education.scss";
 
-// import Node from "./assets/nodeCourse.png";
-// import CF from "./assets/codeFellows.jpg";
-
 class Education extends React.Component {
   render() {
     return (

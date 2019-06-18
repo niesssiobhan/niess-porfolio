@@ -1,18 +1,74 @@
 @import "../../styles/variables.scss";
 
 #contact {
-  display: flex;
-  justify-content: center;
+  border-bottom: 3px solid $dark-color;
+  background-color: $info-color;
 
-  img:hover {
-    background-color: $highlight-color;
-    border-radius: 50%;
+  h2 {
+    padding-top: 20px;
+    margin-left: 450px;
+    font-size: 40px;
+    font-family: $footerfont;
+  }
+
+  p {
+    max-width: 50%;
+    padding-top: 30px;
+    margin-left: 450px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
   }
 
   ul {
     width: 50%;
-    margin: 20px 25%;
+    margin: 30px 35%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  #linkedin {
+    img {
+      max-width: 50%;
+    }
+
+    img:hover {
+      background-color: $highlight-color;
+      border-radius: 50%;
+      // transform: scale(1);
+    }
+  }
+
+  #github {
+    img {
+      max-width: 30%;
+    }
+
+    img:hover {
+      background-color: $highlight-color;
+      border-radius: 50%;
+    }
+  }
+
+  #twitter {
+    img {
+      max-width: 40%;
+    }
+
+    img:hover {
+      background-color: $highlight-color;
+      border-radius: 50%;
+    }
+  }
+
+  #email {
+    img {
+      max-width: 40%;
+    }
+
+    img:hover {
+      background-color: $highlight-color;
+      border-radius: 50%;
+    }
   }
 }

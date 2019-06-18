@@ -9,18 +9,21 @@ class Header extends React.Component {
     return (
       <>
         <nav>
-          <h1>Siobhan Niess</h1>
+          <section id="name">
+            <h1>Siobhan Niess</h1>
+            <h3>Software Engineer</h3>
+          </section>
           <ul>
             <div id="nav">
-              <li>
-                <a href="#about">About</a>
-              </li>
               <li>
                 <a href="#portfolio">Portfolio</a>
               </li>
               <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
                 <a href={Resume} target="_blank" rel="noopener noreferrer">
-                Resume
+                  Resume
                 </a>
               </li>
               <li>

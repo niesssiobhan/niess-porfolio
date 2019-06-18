@@ -2,13 +2,11 @@
 
 #education {
   flex-flow: row wrap;
-  margin: 25px 10px 15px 315px;
   justify-content: center;
-  padding-bottom: 30px;
   border-bottom: 3px solid $dark-color;
 
   h2 {
-    margin: 15px 100px 35px 300px;
+    margin: 20px 100px 35px 580px;
   }
 
   #codeFellows {
@@ -16,9 +14,13 @@
     flex: auto;
 
     img {
-      max-width: 50%;
-      max-height: 50%;
-      padding-right: 50px;
+      max-width: 32%;
+      max-height: 32%;
+      margin: 0 20px 30px 340px;
+      border: 1px hidden;
+      -webkit-box-shadow: 0 0 4px 2px rgb(194, 188, 188);
+      -moz-box-shadow: 0 0 4px 2px rgb(194, 188, 188);
+      box-shadow: 0 0 4px 2px rgb(194, 188, 188);
     }
   }
 
@@ -27,8 +29,13 @@
     display: inline;
 
     img {
-      max-width: 46%;
-      max-height: 46%;
+      margin: 0 0 30px 20px;
+      max-width: 33%;
+      max-height: 33%;
+      border: 1px hidden;
+      -webkit-box-shadow: 0 0 4px 2px rgb(194, 188, 188);
+      -moz-box-shadow: 0 0 4px 2px rgb(194, 188, 188);
+      box-shadow: 0 0 4px 2px rgb(194, 188, 188);
     }
   }
 }

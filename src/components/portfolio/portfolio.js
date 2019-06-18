@@ -3,11 +3,6 @@ import React from "react";
 import "../../styles/base.scss";
 import "./portfolio.scss";
 
-// import SpaceRover from "./assets/spaceRover.jpg";
-// import BuzzCard from "./assets/buzzCard.png";
-// import AtNote from "./assets/atNote.jpg";
-// import PackingPlanner from "./assets/packingPlanner.png";
-
 class Portfolio extends React.Component {
   render() {
     return (

@@ -1,1 +1,10 @@
 @import "../../styles/variables.scss";
+
+#footer {
+  text-align: center;
+  margin: 20px 0 20px 200px;
+
+  p {
+    margin-bottom: 15px;
+  }
+}
