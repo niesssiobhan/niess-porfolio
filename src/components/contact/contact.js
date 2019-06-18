@@ -20,10 +20,12 @@ class Contact extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={require("./assets/linkedin-logo.png")}
-                  alt="linkedin logo"
-                />
+                <div id="linkedin">
+                  <img
+                    src={require("./assets/linkedin-logo.png")}
+                    alt="linkedin logo"
+                  />
+                </div>
               </a>
             </li>
             <li>
@@ -32,10 +34,12 @@ class Contact extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={require("./assets/github-logo.png")}
-                  alt="github logo"
-                />
+                <div id="github">
+                  <img
+                    src={require("./assets/github-logo.png")}
+                    alt="github logo"
+                  />
+                </div>
               </a>
             </li>
             <li>
@@ -44,10 +48,12 @@ class Contact extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={require("./assets/twitter-logo.png")}
-                  alt="twitter logo"
-                />
+                <div id="twitter">
+                  <img
+                    src={require("./assets/twitter-logo.png")}
+                    alt="twitter logo"
+                  />
+                </div>
               </a>
             </li>
             <li>
@@ -56,10 +62,12 @@ class Contact extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={require("./assets/email-logo.png")}
-                  alt="email logo"
-                />
+                <div id="email">
+                  <img
+                    src={require("./assets/email-logo.png")}
+                    alt="email logo"
+                  />
+                </div>
               </a>
             </li>
           </ul>

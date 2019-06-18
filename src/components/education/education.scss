@@ -1,1 +1,34 @@
 @import "../../styles/variables.scss";
+
+#education {
+  flex-flow: row wrap;
+  margin: 25px 10px 15px 315px;
+  justify-content: center;
+  padding-bottom: 30px;
+  border-bottom: 3px solid $dark-color;
+
+  h2 {
+    margin: 15px 100px 35px 300px;
+  }
+
+  #codeFellows {
+    display: inline;
+    flex: auto;
+
+    img {
+      max-width: 50%;
+      max-height: 50%;
+      padding-right: 50px;
+    }
+  }
+
+  #nodejs {
+    flex: auto;
+    display: inline;
+
+    img {
+      max-width: 46%;
+      max-height: 46%;
+    }
+  }
+}
