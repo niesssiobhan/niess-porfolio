@@ -75,27 +75,29 @@ class Portfolio extends React.Component {
                 <span>Technology Invloved: </span>Node.js - npm - JavaScript -
                 MongoDB
               </p>
-              <button class="button">
-                <span />
-                <a
-                  href="https://github.com/AtNote/AtNote"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </button>
-              <button class="buttonTwo">
-                <span />
-                <a
-                  class="secLink"
-                  href="https://www.npmjs.com/package/atnote"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Try atnote!
-                </a>
-              </button>
+              <div id="node">
+                <button class="button">
+                  <span />
+                  <a
+                    href="https://github.com/AtNote/AtNote"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub Repo
+                  </a>
+                </button>
+                <button class="buttonTwo">
+                  <span />
+                  <a
+                    class="secLink"
+                    href="https://www.npmjs.com/package/atnote"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Try atnote!
+                  </a>
+                </button>
+              </div>
             </div>
           </conatiner>
           <h4>Space Rover</h4>
