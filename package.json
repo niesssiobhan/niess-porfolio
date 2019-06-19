@@ -2,10 +2,11 @@
   "name": "niess-portfolio",
   "version": "1.0.0",
   "description": "Siobhan Niess Portfolio",
+  "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -29,6 +30,9 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
   },
   "browserslist": {
     "production": [
