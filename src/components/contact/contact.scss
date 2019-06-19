@@ -1,1 +1,55 @@
 @import "../../styles/variables.scss";
+
+#contact {
+  border-bottom: 3px solid $dark-color;
+  background-color: $info-color;
+
+  h2 {
+    padding-top: 20px;
+    margin-top: 0px;
+    margin-left: 450px;
+    font-size: 40px;
+    font-family: $footerfont;
+  }
+
+  p {
+    max-width: 50%;
+    padding-top: 30px;
+    margin-left: 450px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+  }
+
+  ul {
+    width: 50%;
+    margin: 30px 35%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+
+  .logos {
+    justify-content: space-evenly;
+    width: 100%;
+    transition: transform 0.2s;
+    img:hover {
+      transform: scale(1.5);
+    }
+  }
+
+  #github {
+    max-width: 35%;
+  }
+
+  #linkedin {
+    max-width: 35%;
+  }
+
+  #twitter {
+    max-width: 35%;
+  }
+
+  #email {
+    max-width: 35%;
+  }
+}

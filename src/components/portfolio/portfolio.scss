@@ -1,128 +1,249 @@
 @import "../../styles/variables.scss";
 
-#portfolio{
+#portfolio {
   display: flex;
   flex-flow: wrap;
+  margin-left: 275px;
   flex-direction: column;
   justify-content: center;
+  border-bottom: 3px solid $dark-color;
 
-  h2{
-    margin: 10px auto 20px 550px;
+  h2 {
+    margin: 15px auto 30px 275px;
   }
 
-  h4{
-    margin: 5px auto 5px 300px;
-    font-weight: 50;
+  hr {
+    width: 50%;
+    margin-left: 250px;
   }
 
-    #containerOne{
-      display:flex;
-      max-width: 100%;
-      margin-bottom: 425px;
-
-      #imageOne{
-        flex: 0 0 50%;
-        width: 100px;
-        height:100px;
-        
-        #imageOne img{
-          max-width: 100%;
-          max-height: 100%;
-          margin-right: 30px;
-          border: 1px hidden;
-          -webkit-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
-          -moz-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
-          box-shadow: 0 0 4px 2px rgb(224, 219, 219);
-        }
-      }
-          #contentOne{
-            background-color: red($color: #000000);
-            // display: flex;
-            // flex-direction: column;
-            // max-width: 25%;
-            // max-height: 100%;
-            // margin: 10px 0 10px 10px;
-        }
-
+  h4 {
+    margin: 30px auto 5px 50px;
+    font-weight: bold;
   }
 
-    #containerTwo{
-      display:flex;
-      max-width: 100%;
-
-      #imageTwo{
-        flex: 0 0 100%;
-
-        #imageTwo img{
-          max-width: 50%;
-          margin-left: 10px;
-          border: 1px hidden;
-          -webkit-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
-          -moz-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
-          box-shadow: 0 0 4px 2px rgb(224, 219, 219);
-        }
-      }
-
-      #contentTwo{
-        display: flex;
-        flex-direction: column;
-        width: 500px;
-        height: 200px;
-        margin: 0;
-        text-align: right;
-    }
+  span {
+    font-weight: bold;
   }
 
-  #containerThree{
-    display:flex;
+  #node {
+    margin-left: -30px;
+  }
 
-    #imageThree{
-      flex: 0 0 100%;
+  .button {
+    margin-left: 250px;
+    margin-right: 30px;
+  }
 
-      #imageThree img{
-        max-width: 100%;
-        margin: 20px 10px 70px 300px;
+  .button,
+  .buttonTwo {
+    background-color: gray;
+    font-family: $bodyfont;
+    font-size: 18px;
+    border-radius: 4%;
+    transition: all 0.5s;
+    border: none;
+  }
+
+  .button span,
+  .buttonTwo span {
+    display: inline-block;
+    transition: 0.5s;
+  }
+
+  .button span:after,
+  .buttonTwo span:after {
+    content: "\00bb";
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 1s;
+  }
+
+  .button:hover span,
+  .buttonTwo:hover span {
+    padding-left: 25px;
+  }
+
+  .button:hover span:after,
+  .buttonTwo:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #containerOne {
+    display: flex;
+    margin-bottom: 25px;
+
+    #imageOne {
+      display: block;
+
+      img {
+        max-width: 185%;
+        max-height: 185%;
+        display: block;
+        margin-top: 15px;
+        margin-right: 50px;
+        margin-left: 30px;
         border: 1px hidden;
         -webkit-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
         -moz-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
         box-shadow: 0 0 4px 2px rgb(224, 219, 219);
       }
     }
+    #contentOne {
+      display: flexbox;
+      max-width: 100%;
 
-    #contentThree{
-      display: flex;
-      flex-direction: column;
-      width: 500px;
-      height: 200px;
-      margin: 0;
-      text-align: right;
+      p {
+        max-width: 65%;
+        margin-top: 25px;
+        margin-left: 250px;
+        margin-bottom: 0px;
+        line-height: 1.5;
+      }
+
+      p.tech {
+        margin-top: -0.5px;
+      }
+
+      a {
+        display: inline-block;
+        padding: 15px 15px 15px 15px;
+        text-decoration: none;
+      }
     }
   }
 
-  #containerFour{
-    display:flex;
+  #containerTwo {
+    display: flex;
+    margin-bottom: 25px;
 
-    #imageFour{
-      flex: 0 0 100%;
+    #imageTwo {
+      display: block;
 
-      #imageFour img{
-        max-width: 100%;
-        margin: 20px 10px 70px 300px;
+      img {
+        max-width: 155%;
+        max-height: 155%;
+        display: block;
+        margin-top: 15px;
+        margin-right: 50px;
+        margin-left: 30px;
         border: 1px hidden;
         -webkit-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
         -moz-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
         box-shadow: 0 0 4px 2px rgb(224, 219, 219);
       }
     }
+    #contentTwo {
+      display: flexbox;
+      max-width: 100%;
 
-    #contentFour{
-      display: flex;
-      flex-direction: column;
-      width: 500px;
-      height: 200px;
-      margin: 0;
-      text-align: right;
+      p {
+        max-width: 65%;
+        margin-top: 35px;
+        margin-left: 220px;
+        margin-bottom: 0px;
+        line-height: 1.5;
+      }
+
+      p.tech {
+        margin-top: -0.5px;
+      }
+
+      a {
+        display: inline-block;
+        padding: 15px 15px 15px 15px;
+        text-decoration: none;
+      }
     }
   }
 
+  #containerThree {
+    display: flex;
+    margin-bottom: 25px;
+
+    #imageThree {
+      display: block;
+
+      img {
+        max-width: 170%;
+        max-height: 170%;
+        display: block;
+        margin-top: 15px;
+        margin-right: 50px;
+        margin-left: 30px;
+        border: 1px hidden;
+        -webkit-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
+        -moz-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
+        box-shadow: 0 0 4px 2px rgb(224, 219, 219);
+      }
+    }
+    #contentThree {
+      display: flexbox;
+      max-width: 100%;
+
+      p {
+        max-width: 65%;
+        margin-top: 12px;
+        margin-left: 250px;
+        margin-bottom: 0px;
+        line-height: 1.5;
+      }
+
+      p.tech {
+        margin-top: -0.5px;
+      }
+
+      a {
+        display: inline-block;
+        padding: 15px 15px 15px 15px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  #containerFour {
+    display: flex;
+    margin-bottom: 35px;
+
+    #imageFour {
+      display: block;
+
+      img {
+        max-width: 160%;
+        max-height: 160%;
+        display: block;
+        margin-top: 15px;
+        margin-right: 50px;
+        margin-left: 30px;
+        border: 1px hidden;
+        -webkit-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
+        -moz-box-shadow: 0 0 4px 2px rgb(224, 219, 219);
+        box-shadow: 0 0 4px 2px rgb(224, 219, 219);
+      }
+    }
+    #contentFour {
+      display: flexbox;
+      max-width: 100%;
+
+      p {
+        max-width: 65%;
+        margin-top: 10px;
+        margin-left: 250px;
+        margin-bottom: 0px;
+        line-height: 1.5;
+      }
+
+      p.tech {
+        margin-top: -0.5px;
+      }
+
+      a {
+        display: inline-block;
+        padding: 15px 15px 15px 15px;
+        text-decoration: none;
+      }
+    }
+  }
 }

@@ -1,31 +1,47 @@
 @import "../../styles/variables.scss";
 
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Encode+Sans+Semi+Condensed|Montserrat|Open+Sans|Raleway:300&display=swap');
-nav {
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Encode+Sans+Semi+Condensed|Montserrat|Open+Sans|Raleway:300&display=swap");
 
+nav {
   height: 100%;
   width: 275px;
   background-color: $light-color;
   position: fixed;
-  // top: 0;
-  // display: block;
   border-right: 3px solid $dark-color;
+  box-shadow: 0 0 25px 0 black;
 
-  #name{
-    border-bottom: 1.5px solid $dark-color;
-    padding-bottom: 30px;
+  div.nav a:before {
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    left: 0px;
+    content: "";
+    background: #000000ba;
+    transition: all 0.3s;
+    z-index: -1;
   }
 
-  h1{
-    font-family: 'Encode Sans Semi Condensed', sans-serif;
+  div.nav a:hover:before {
+    width: 100%;
+  }
+
+  #name {
+    border-bottom: 2px solid $dark-color;
+    padding-bottom: 20px;
+    background-color: rgb(230, 227, 227);
+    max-height: 30%;
+  }
+
+  h1 {
+    font-family: "Encode Sans Semi Condensed", sans-serif;
     font-weight: 275;
     font-size: 60px;
     text-transform: uppercase;
-    margin: 15px 15px 7px 15px;
+    margin: 0px 15px 5px 15px;
     display: block;
   }
-  
-  h3{
+
+  h3 {
     font-family: $headerfont;
     color: rgba(54, 56, 54, 0.678);
     font-style: oblique;
@@ -35,19 +51,15 @@ nav {
     text-align: center;
   }
 
-  div{
-    // display: flex;
-    // flex-direction: row;
+  .nav {
     justify-content: space-between;
     line-height: 60px;
     font-size: 25px;
     margin-left: 50px;
   }
 
-  a, li {
+  a {
     display: block;
     text-decoration: none;
-    margin: 22px auto 15px auto;
   }
-
 }

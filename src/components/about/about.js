@@ -27,7 +27,7 @@ class About extends React.Component {
               in this industry! I mean what is more thriling than being able to
               create something, anything, so incredible out of nothing! Being
               able to impact the world and the people around you with your own
-              ideas is the enjoying and satisfaction that I am excited to work
+              ideas is the enjoyment and satisfaction that I am excited to work
               for in the years to come. I can't wait to find out what I don't
               know, and turn them into strengths!
             </p>

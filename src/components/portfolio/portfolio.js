@@ -3,17 +3,13 @@ import React from "react";
 import "../../styles/base.scss";
 import "./portfolio.scss";
 
-// import SpaceRover from "./assets/spaceRover.jpg";
-// import BuzzCard from "./assets/buzzCard.png";
-// import AtNote from "./assets/atNote.jpg";
-// import PackingPlanner from "./assets/packingPlanner.png";
-
 class Portfolio extends React.Component {
   render() {
     return (
       <>
         <section id="portfolio">
           <h2>Current Portfolio</h2>
+          <hr />
           <section id="projects" />
           <h4>BuzzCard</h4>
           <container id="containerOne">
@@ -36,63 +32,83 @@ class Portfolio extends React.Component {
                 <span>Technology Invloved: </span>React Native - Redux - Expo
                 App
               </p>
-              <a
-                href="https://github.com/401-final-project/front-end"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub Repo
-              </a>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.jaredpattison.BUZZCARD&hl=en_US"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Install BUZZCARD!
-              </a>
+              <button class="button">
+                <span />
+                <a
+                  href="https://github.com/401-final-project/front-end"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repo
+                </a>
+              </button>
+              <button class="buttonTwo">
+                <span />
+                <a
+                  class="secLink"
+                  href="https://play.google.com/store/apps/details?id=com.jaredpattison.BUZZCARD&hl=en_US"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Install BUZZCARD!
+                </a>
+              </button>
             </div>
           </container>
           <h4>atnote</h4>
           <conatiner id="containerTwo">
-            <img
-              src={require("./assets/atNote.jpg")}
-              alt="atnote npm package"
-            />
-            <div>
+            <div id="imageTwo">
+              <img
+                src={require("./assets/atNote.jpg")}
+                alt="atnote npm package"
+              />
+            </div>
+            <div id="contentTwo">
               <p>
                 <span>What it does: </span>atnote is a npm package that was
                 created to help users take notes while they are in their termial
                 with ease. Allows users to multitask between note taking and
                 writing code in a non-intrustive process. This is also
-                customizable for each user
+                customizable for each user.
               </p>
               <p class="tech">
                 <span>Technology Invloved: </span>Node.js - npm - JavaScript -
                 MongoDB
               </p>
-              <a
-                href="https://github.com/AtNote/AtNote"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub Repo
-              </a>
-              <a
-                href="https://www.npmjs.com/package/atnote"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Try atnote!
-              </a>
+              <div id="node">
+                <button class="button">
+                  <span />
+                  <a
+                    href="https://github.com/AtNote/AtNote"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub Repo
+                  </a>
+                </button>
+                <button class="buttonTwo">
+                  <span />
+                  <a
+                    class="secLink"
+                    href="https://www.npmjs.com/package/atnote"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Try atnote!
+                  </a>
+                </button>
+              </div>
             </div>
           </conatiner>
           <h4>Space Rover</h4>
           <container id="containerThree">
-            <img
-              src={require("./assets/spaceRover.jpg")}
-              alt="website image of Space Rover"
-            />
-            <div>
+            <div id="imageThree">
+              <img
+                src={require("./assets/spaceRover.jpg")}
+                alt="website image of Space Rover"
+              />
+            </div>
+            <div id="contentThree">
               <p>
                 <span>What it does: </span>Space Rover is a mobile-first,
                 educational website about space. Users are able to select a
@@ -106,29 +122,38 @@ class Portfolio extends React.Component {
                 <span>Technology Invloved: </span>JavaScript- EJS - HTML - CSS -
                 Node.js - Ephemeris API - NASA AoPD API - Heroku - SQL
               </p>
-              <a
-                href="https://github.com/hcherewaty/space_rover"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub Repo
-              </a>
-              <a
-                href="http://www.spacerover.tech/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Check out Space Rover!
-              </a>
+              <button class="button">
+                <span />
+                <a
+                  href="https://github.com/hcherewaty/space_rover"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repo
+                </a>
+              </button>
+              <button class="buttonTwo">
+                <span />
+                <a
+                  class="secLink"
+                  href="http://www.spacerover.tech/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Check out Space Rover!
+                </a>
+              </button>
             </div>
           </container>
           <h4>Packing Planner</h4>
           <conatiner id="containerFour">
-            <img
-              src={require("./assets/packingPlanner.png")}
-              alt="image of a stage with in Packing Planner"
-            />
-            <div>
+            <div id="imageFour">
+              <img
+                src={require("./assets/packingPlanner.png")}
+                alt="image of a stage with in Packing Planner"
+              />
+            </div>
+            <div id="contentFour">
               <p>
                 <span>What it does: </span>Packing Planner is an application
                 that was designed to help users pack for a trip or a vaction.
@@ -140,20 +165,27 @@ class Portfolio extends React.Component {
               <p class="tech">
                 <span>Technology Invloved: </span>JavaScript - HTML - CSS
               </p>
-              <a
-                href="https://github.com/niesssiobhan/packing-planner"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub Repo
-              </a>
-              <a
-                href="https://niesssiobhan.github.io/packing-planner/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Start Packing!
-              </a>
+              <button class="button">
+                <span />
+                <a
+                  href="https://github.com/niesssiobhan/packing-planner"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub Repo
+                </a>
+              </button>
+              <button class="buttonTwo">
+                <span />
+                <a
+                  class="secLink"
+                  href="https://niesssiobhan.github.io/packing-planner/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Start Packing!
+                </a>
+              </button>
             </div>
           </conatiner>
         </section>
