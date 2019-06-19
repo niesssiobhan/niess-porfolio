@@ -19,6 +19,7 @@ nav {
     background: #000000ba;
     transition: all 0.3s;
     z-index: -1;
+    box-shadow: 0 0 25px 0 rgb(61, 60, 60);
   }
 
   div.nav a:hover:before {
@@ -61,5 +62,26 @@ nav {
   a {
     display: block;
     text-decoration: none;
+  }
+}
+
+// Tablet view
+@media screen and (max-width: 875px) {
+  nav {
+    position: fixed;
+    height: 170px;
+    flex-direction: column;
+    width: 100%;
+
+    #name {
+      text-align: center;
+      margin-right: 165px;
+      max-height: 500px;
+    }
+
+    .nav {
+      display: flex;
+      margin-right: 230px;
+    }
   }
 }
