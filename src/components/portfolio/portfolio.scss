@@ -71,6 +71,13 @@
     right: 0;
   }
 
+  a {
+    color: black;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+  }
+
   #containerOne {
     display: flex;
     margin-bottom: 25px;
@@ -105,12 +112,6 @@
 
       p.tech {
         margin-top: -0.5px;
-      }
-
-      a {
-        display: inline-block;
-        padding: 15px 15px 15px 15px;
-        text-decoration: none;
       }
     }
   }
@@ -150,12 +151,6 @@
       p.tech {
         margin-top: -0.5px;
       }
-
-      a {
-        display: inline-block;
-        padding: 15px 15px 15px 15px;
-        text-decoration: none;
-      }
     }
   }
 
@@ -193,12 +188,6 @@
 
       p.tech {
         margin-top: -0.5px;
-      }
-
-      a {
-        display: inline-block;
-        padding: 15px 15px 15px 15px;
-        text-decoration: none;
       }
     }
   }
@@ -238,11 +227,29 @@
       p.tech {
         margin-top: -0.5px;
       }
+    }
+  }
+}
 
-      a {
-        display: inline-block;
-        padding: 15px 15px 15px 15px;
-        text-decoration: none;
+@media screen and (max-width: 975px) and (min-width: 800px) {
+  #portfolio {
+    width: 100%;
+
+    h2 {
+      margin: 10px 100px 20px 300px;
+      // flex-direction: column;
+    }
+
+    #containerOne {
+      // width: 100%;
+      margin-right: 10px;
+
+      #imageOne {
+        display: block;
+
+        img {
+          margin-left: 400px;
+        }
       }
     }
   }

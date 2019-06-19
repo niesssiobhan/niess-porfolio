@@ -27,3 +27,26 @@ p:nth-child(2) {
 h2 {
   margin: 10px auto 10px 115px;
 }
+
+// Tablet view
+@media screen and (max-width: 875px) {
+  #about {
+    max-width: 100%;
+
+    img {
+      margin-left: 200px;
+      margin-top: 200px;
+    }
+
+    #content {
+      width: 85%;
+      margin: 10px 20px 30px 60px;
+      line-height: 1.5;
+
+      h2 {
+        width: 100%;
+        margin-left: 40px;
+      }
+    }
+  }
+}

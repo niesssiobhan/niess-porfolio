@@ -140,7 +140,7 @@ class Portfolio extends React.Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Check out Space Rover!
+                  Explore Space!
                 </a>
               </button>
             </div>
