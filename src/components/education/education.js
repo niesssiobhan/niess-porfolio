@@ -9,6 +9,7 @@ class Education extends React.Component {
       <>
         <section id="education">
           <h2>Certifications</h2>
+          <hr />
           <div id="codeFellows">
             <img
               src={require("./assets/codeFellows.jpg")}

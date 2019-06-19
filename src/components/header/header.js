@@ -13,27 +13,15 @@ class Header extends React.Component {
             <h1>Siobhan Niess</h1>
             <h3>Software Engineer</h3>
           </section>
-          <ul>
-            <div id="nav">
-              <li>
-                <a href="#portfolio">Portfolio</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href={Resume} target="_blank" rel="noopener noreferrer">
-                  Resume
-                </a>
-              </li>
-              <li>
-                <a href="#education">Certifications</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-            </div>
-          </ul>
+          <div class="nav">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href={Resume} target="_blank" rel="noopener noreferrer">
+              Resume
+            </a>
+            <a href="#education">Certifications</a>
+            <a href="#contact">Contact</a>
+          </div>
         </nav>
       </>
     );

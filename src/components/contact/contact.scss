@@ -6,6 +6,7 @@
 
   h2 {
     padding-top: 20px;
+    margin-top: 0px;
     margin-left: 450px;
     font-size: 40px;
     font-family: $footerfont;
@@ -27,48 +28,28 @@
     grid-template-columns: 25% 25% 25% 25%;
   }
 
-  #linkedin {
-    img {
-      max-width: 50%;
-    }
-
+  .logos {
+    justify-content: space-evenly;
+    width: 100%;
+    transition: transform 0.2s;
     img:hover {
-      background-color: $highlight-color;
-      border-radius: 50%;
-      // transform: scale(1);
+      transform: scale(1.5);
     }
   }
 
   #github {
-    img {
-      max-width: 30%;
-    }
+    max-width: 35%;
+  }
 
-    img:hover {
-      background-color: $highlight-color;
-      border-radius: 50%;
-    }
+  #linkedin {
+    max-width: 35%;
   }
 
   #twitter {
-    img {
-      max-width: 40%;
-    }
-
-    img:hover {
-      background-color: $highlight-color;
-      border-radius: 50%;
-    }
+    max-width: 35%;
   }
 
   #email {
-    img {
-      max-width: 40%;
-    }
-
-    img:hover {
-      background-color: $highlight-color;
-      border-radius: 50%;
-    }
+    max-width: 35%;
   }
 }
