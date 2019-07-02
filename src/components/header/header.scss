@@ -30,7 +30,7 @@ nav {
     border-bottom: 2px solid $dark-color;
     padding-bottom: 20px;
     background-color: rgb(230, 227, 227);
-    max-height: 30%;
+    // max-height: 30%;
   }
 
   h1 {
@@ -40,6 +40,7 @@ nav {
     text-transform: uppercase;
     margin: 0px 15px 5px 15px;
     display: block;
+    padding-top: 10px;
   }
 
   h3 {
@@ -72,16 +73,37 @@ nav {
     height: 170px;
     flex-direction: column;
     width: 100%;
+    min-width: 375px;
+    border-right: 0px;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    h3 {
+      padding-bottom: 10px;
+    }
 
     #name {
+      width: 100%;
       text-align: center;
-      margin-right: 165px;
-      max-height: 500px;
+      // margin-right: 165px;
+    }
+
+    div.nav a:before {
+      box-shadow: 0 0 0 rgb(61, 60, 60);
     }
 
     .nav {
       display: flex;
-      margin-right: 230px;
+      // margin-right: 230px;
+      justify-content: space-between;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    a {
+      font-size: 15px;
     }
   }
 }

@@ -32,27 +32,29 @@ class Portfolio extends React.Component {
                 <span>Technology Invloved: </span>React Native - Redux - Expo
                 App
               </p>
-              <button class="button">
-                <span />
-                <a
-                  href="https://github.com/401-final-project/front-end"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </button>
-              <button class="buttonTwo">
-                <span />
-                <a
-                  class="secLink"
-                  href="https://play.google.com/store/apps/details?id=com.jaredpattison.BUZZCARD&hl=en_US"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Install BUZZCARD!
-                </a>
-              </button>
+              <div className="buttonContainer">
+                <button class="button">
+                  <span />
+                  <a
+                    href="https://github.com/401-final-project/front-end"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub Repo
+                  </a>
+                </button>
+                <button class="buttonTwo">
+                  <span />
+                  <a
+                    class="secLink"
+                    href="https://play.google.com/store/apps/details?id=com.jaredpattison.BUZZCARD&hl=en_US"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Install BUZZCARD!
+                  </a>
+                </button>
+              </div>
             </div>
           </container>
           <h4>atnote</h4>
@@ -76,27 +78,29 @@ class Portfolio extends React.Component {
                 MongoDB
               </p>
               <div id="node">
-                <button class="button">
-                  <span />
-                  <a
-                    href="https://github.com/AtNote/AtNote"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    GitHub Repo
-                  </a>
-                </button>
-                <button class="buttonTwo">
-                  <span />
-                  <a
-                    class="secLink"
-                    href="https://www.npmjs.com/package/atnote"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Try atnote!
-                  </a>
-                </button>
+                <div className="buttonContainer">
+                  <button class="button">
+                    <span />
+                    <a
+                      href="https://github.com/AtNote/AtNote"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub Repo
+                    </a>
+                  </button>
+                  <button class="buttonTwo">
+                    <span />
+                    <a
+                      class="secLink"
+                      href="https://www.npmjs.com/package/atnote"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Try atnote!
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
           </conatiner>
@@ -122,27 +126,29 @@ class Portfolio extends React.Component {
                 <span>Technology Invloved: </span>JavaScript- EJS - HTML - CSS -
                 Node.js - Ephemeris API - NASA AoPD API - Heroku - SQL
               </p>
-              <button class="button">
-                <span />
-                <a
-                  href="https://github.com/hcherewaty/space_rover"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </button>
-              <button class="buttonTwo">
-                <span />
-                <a
-                  class="secLink"
-                  href="http://www.spacerover.tech/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Explore Space!
-                </a>
-              </button>
+              <div className="buttonContainer">
+                <button class="button">
+                  <span />
+                  <a
+                    href="https://github.com/hcherewaty/space_rover"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub Repo
+                  </a>
+                </button>
+                <button class="buttonTwo">
+                  <span />
+                  <a
+                    class="secLink"
+                    href="http://www.spacerover.tech/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Explore Space!
+                  </a>
+                </button>
+              </div>
             </div>
           </container>
           <h4>Packing Planner</h4>
@@ -165,27 +171,29 @@ class Portfolio extends React.Component {
               <p class="tech">
                 <span>Technology Invloved: </span>JavaScript - HTML - CSS
               </p>
-              <button class="button">
-                <span />
-                <a
-                  href="https://github.com/niesssiobhan/packing-planner"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub Repo
-                </a>
-              </button>
-              <button class="buttonTwo">
-                <span />
-                <a
-                  class="secLink"
-                  href="https://niesssiobhan.github.io/packing-planner/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Start Packing!
-                </a>
-              </button>
+              <div className="buttonContainer">
+                <button class="button">
+                  <span />
+                  <a
+                    href="https://github.com/niesssiobhan/packing-planner"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub Repo
+                  </a>
+                </button>
+                <button class="buttonTwo">
+                  <span />
+                  <a
+                    class="secLink"
+                    href="https://niesssiobhan.github.io/packing-planner/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Start Packing!
+                  </a>
+                </button>
+              </div>
             </div>
           </conatiner>
         </section>

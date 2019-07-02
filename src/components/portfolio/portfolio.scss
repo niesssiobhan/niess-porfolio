@@ -231,26 +231,134 @@
   }
 }
 
-@media screen and (max-width: 975px) and (min-width: 800px) {
+@media screen and (max-width: 875px) {
   #portfolio {
     width: 100%;
+    margin-left: 0px;
+    display: block;
 
     h2 {
-      margin: 10px 100px 20px 300px;
-      // flex-direction: column;
+      text-align: center;
+      margin: 10px auto 20px;
+    }
+
+    hr {
+      margin: 10px auto;
+      width: 80%;
+    }
+
+    h4 {
+      margin: 20px auto;
+      text-align: center;
     }
 
     #containerOne {
-      // width: 100%;
-      margin-right: 10px;
+      display: block;
+      margin: 20px auto;
+      width: 90%;
 
-      #imageOne {
+      img {
+        margin: 10px auto;
+        width: 85%;
+      }
+
+      #contentOne {
         display: block;
 
-        img {
-          margin-left: 400px;
+        p {
+          margin: 25px auto 0px;
+          width: 100%;
+          max-width: 100%;
+          text-align: justify;
+          font-size: 17px;
         }
       }
+    }
+
+    #containerTwo {
+      display: block;
+      margin: 20px auto;
+      width: 90%;
+
+      img {
+        margin: 10px auto;
+        width: 85%;
+      }
+
+      #contentTwo {
+        display: block;
+
+        p {
+          margin: 25px auto 0px;
+          width: 100%;
+          max-width: 100%;
+          text-align: justify;
+          font-size: 17px;
+        }
+      }
+    }
+
+    #containerThree {
+      display: block;
+      margin: 20px auto;
+      width: 90%;
+
+      img {
+        margin: 10px auto;
+        width: 83%;
+      }
+
+      #contentThree {
+        display: block;
+
+        p {
+          margin: 25px auto 0px;
+          width: 100%;
+          max-width: 100%;
+          text-align: justify;
+          font-size: 17px;
+        }
+      }
+    }
+
+    #containerFour {
+      display: block;
+      margin: 20px auto;
+      width: 90%;
+
+      img {
+        margin: 10px auto;
+        width: 84%;
+      }
+
+      #contentFour {
+        display: block;
+
+        p {
+          margin: 25px auto 0px;
+          width: 100%;
+          max-width: 100%;
+          text-align: justify;
+          font-size: 17px;
+        }
+      }
+    }
+
+    .buttonContainer {
+      display: flex;
+      justify-content: center;
+    }
+
+    .button {
+      margin-left: 3px;
+      font-size: 14px;
+      display: inline;
+    }
+
+    .buttonTwo {
+      margin: 0px;
+      font-size: 14px;
+      display: inline;
     }
   }
 }
