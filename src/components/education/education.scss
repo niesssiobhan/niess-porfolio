@@ -82,3 +82,21 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  #education {
+    #codeFellows {
+      img {
+        width: 100%;
+        margin: 20px 30px 20px 65px;
+      }
+    }
+
+    #nodejs {
+      img {
+        width: 100%;
+        margin: 20px auto;
+      }
+    }
+  }
+}
