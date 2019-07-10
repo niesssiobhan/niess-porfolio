@@ -53,3 +53,45 @@
     max-width: 35%;
   }
 }
+
+@media screen and (max-width: 875px) {
+  #contact {
+    h2 {
+      text-align: center;
+      font-size: 32px;
+
+      margin-right: auto;
+      margin-left: auto;
+      width: 100%;
+    }
+
+    p {
+      text-align: justify;
+      max-width: 85%;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px;
+    }
+
+    ul {
+      width: 100%;
+      margin: 20px 0px 10px 20px;
+    }
+
+    #github {
+      max-width: 45%;
+    }
+
+    #linkedin {
+      max-width: 45%;
+    }
+
+    #twitter {
+      max-width: 45%;
+    }
+
+    #email {
+      max-width: 45%;
+    }
+  }
+}
