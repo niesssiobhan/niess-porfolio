@@ -28,26 +28,22 @@ h2 {
   margin: 10px auto 10px 115px;
 }
 
-// Tablet view
 @media screen and (max-width: 875px) {
   #about {
-    max-width: 100%;
+    width: 100%;
 
     img {
-      // margin-left: 200px;
       margin: 220px auto 10px;
       width: 70%;
     }
 
     #content {
-      // width: 100%;
       margin: 10px auto 30px;
       line-height: 1.5;
       width: 80%;
 
       h2 {
         text-align: center;
-        // width: 100%;
         margin-left: 0px;
         font-size: 30px;
       }
