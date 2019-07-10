@@ -13,7 +13,7 @@ class Contact extends React.Component {
             I'd love to become a part of your team! I'm excited to keep growing
             and if you have any questions please connect with me!
           </p>
-          <container class="logos">
+          <container className="logos">
             <ul>
               <li>
                 <a

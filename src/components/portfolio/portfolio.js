@@ -28,12 +28,12 @@ class Portfolio extends React.Component {
                 accounts or ways of contact to share with others by simply
                 generating a QR code that they will share.
               </p>
-              <p class="tech">
+              <p className="tech">
                 <span>Technology Invloved: </span>React Native - Redux - Expo
                 App
               </p>
               <div className="buttonContainer">
-                <button class="button">
+                <button className="button">
                   <span />
                   <a
                     href="https://github.com/401-final-project/front-end"
@@ -43,10 +43,10 @@ class Portfolio extends React.Component {
                     GitHub Repo
                   </a>
                 </button>
-                <button class="buttonTwo">
+                <button className="buttonTwo">
                   <span />
                   <a
-                    class="secLink"
+                    className="secLink"
                     href="https://play.google.com/store/apps/details?id=com.jaredpattison.BUZZCARD&hl=en_US"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -73,13 +73,13 @@ class Portfolio extends React.Component {
                 writing code in a non-intrustive process. This is also
                 customizable for each user.
               </p>
-              <p class="tech">
+              <p className="tech">
                 <span>Technology Invloved: </span>Node.js - npm - JavaScript -
                 MongoDB
               </p>
               <div id="node">
                 <div className="buttonContainer">
-                  <button class="button">
+                  <button className="button">
                     <span />
                     <a
                       href="https://github.com/AtNote/AtNote"
@@ -89,10 +89,10 @@ class Portfolio extends React.Component {
                       GitHub Repo
                     </a>
                   </button>
-                  <button class="buttonTwo">
+                  <button className="buttonTwo">
                     <span />
                     <a
-                      class="secLink"
+                      className="secLink"
                       href="https://www.npmjs.com/package/atnote"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -122,12 +122,12 @@ class Portfolio extends React.Component {
                 measurment and a short list of assorted facts for each
                 planet/celestial body.
               </p>
-              <p class="tech">
+              <p className="tech">
                 <span>Technology Invloved: </span>JavaScript- EJS - HTML - CSS -
                 Node.js - Ephemeris API - NASA AoPD API - Heroku - SQL
               </p>
               <div className="buttonContainer">
-                <button class="button">
+                <button className="button">
                   <span />
                   <a
                     href="https://github.com/hcherewaty/space_rover"
@@ -137,10 +137,10 @@ class Portfolio extends React.Component {
                     GitHub Repo
                   </a>
                 </button>
-                <button class="buttonTwo">
+                <button className="buttonTwo">
                   <span />
                   <a
-                    class="secLink"
+                    className="secLink"
                     href="http://www.spacerover.tech/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -168,11 +168,11 @@ class Portfolio extends React.Component {
                 with. Creating a check off list for users in hope that no 'must
                 have' items are forgotten.
               </p>
-              <p class="tech">
+              <p className="tech">
                 <span>Technology Invloved: </span>JavaScript - HTML - CSS
               </p>
               <div className="buttonContainer">
-                <button class="button">
+                <button className="button">
                   <span />
                   <a
                     href="https://github.com/niesssiobhan/packing-planner"
@@ -182,10 +182,10 @@ class Portfolio extends React.Component {
                     GitHub Repo
                   </a>
                 </button>
-                <button class="buttonTwo">
+                <button className="buttonTwo">
                   <span />
                   <a
-                    class="secLink"
+                    className="secLink"
                     href="https://niesssiobhan.github.io/packing-planner/"
                     target="_blank"
                     rel="noopener noreferrer"

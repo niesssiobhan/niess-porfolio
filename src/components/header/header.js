@@ -13,7 +13,7 @@ class Header extends React.Component {
             <h1>Siobhan Niess</h1>
             <h3>Software Engineer</h3>
           </section>
-          <div class="nav">
+          <div className="nav">
             <a href="#portfolio">Portfolio</a>
             <a href="#about">About</a>
             <a href={Resume} target="_blank" rel="noopener noreferrer">
