@@ -95,3 +95,29 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  #contact {
+    width: 100%;
+    ul {
+      max-width: 85%;
+      margin-left: 100px;
+    }
+
+    #github {
+      max-width: 30%;
+    }
+
+    #linkedin {
+      max-width: 30%;
+    }
+
+    #twitter {
+      max-width: 30%;
+    }
+
+    #email {
+      max-width: 30%;
+    }
+  }
+}

@@ -362,3 +362,43 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  #portfolio {
+    #containerOne {
+      #imageOne {
+        margin: 15px 0px 15px 0px;
+        img {
+          margin: 15px auto;
+        }
+      }
+    }
+
+    #containerTwo {
+      #imageTwo {
+        margin: 15px 0px 15px 0px;
+        img {
+          margin: 15px auto;
+        }
+      }
+    }
+
+    #containerThree {
+      #imageThree {
+        margin: 15px 0px 15px 0px;
+        img {
+          margin: 15px auto;
+        }
+      }
+    }
+
+    #containerFour {
+      #imageFour {
+        margin: 15px 0px 15px 0px;
+        img {
+          margin: 15px auto;
+        }
+      }
+    }
+  }
+}
