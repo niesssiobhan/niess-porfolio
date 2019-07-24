@@ -16,7 +16,7 @@ class About extends React.Component {
             <h2>I'm Glad You're Here!</h2>
             <p>
               To introduce myself, my name is Siobhan Niess and I'm a Software
-              Engineer. I was born and raised in the Seattle Area and absolute
+              Engineer. I was born and raised in the Seattle Area and absolutely
               love the Pacific North West! As you can see, I'm also a mother to
               a beautiful little girl, Teagan. When I am not plugged away coding
               and trying to learn something new, my family and I are outside
